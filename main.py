@@ -56,7 +56,7 @@ while GenderInput != Male or GenderInput != Male2 or GenderInput != Female or Ge
 ##
         if GenderInput == Male or Male2:
             ALU_Input = Step1 * StepCounter
-            ALU_Km = ALU_Input / 1000
+            ALU_Km = ALU_Input / 10000
             print("---------------------------")
             print("    Statistics    ")
             print(f"Steps: {StepCounter}")
@@ -75,7 +75,7 @@ while GenderInput != Male or GenderInput != Male2 or GenderInput != Female or Ge
                 print(f"{StepCounter} = {RecSteps}")
         else:
             ALU_Input2 = Step2 * StepCounter
-            ALU_Km2 = ALU_Input2 / 1000
+            ALU_Km2 = ALU_Input2 / 10000
             print("---------------------------")
             print("    Statistics    ")
             print(f"Steps: {StepCounter}")
