@@ -1,0 +1,13 @@
+Variables
+
+GenderInput - отвечает за ввод пола человека
+
+Male, Male2, Female, Female2 - переменные в которые вписаны варианты пола
+
+AllSupported - включает предыдущие переменные <Male, Male2, Female, Female2>
+
+Height, Height2 - рост человека в см
+
+RecSteps, RecSteps2 - Рекомендованное количество шагов
+
+Steps1, Steps2 - формула расчета длины шага
